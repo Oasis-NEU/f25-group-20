@@ -5,6 +5,7 @@ const App = () => {
     <div style={{ width: '100vw',      // full width of the window
     height: '100vh',     // full height of the window
     backgroundColor: '#496068',
+    // boxSizing: 'border-box',
     padding: '20px'}}>
       {/* Top bar */}
       <div 
@@ -21,11 +22,11 @@ const App = () => {
       </div>
 
       {/* Tabs */}
-      <div style={{ display: 'flex', gap: '20px', height: '70vh'}}>
-        <div style={{ flex: 2, backgroundColor: '#f0f0f0', padding: '20px'}}>
+      <div style={{display: 'flex', gap: '20px', height: '70vh'}}>
+        <div style={{color: 'black', fontSize: '20px', flex: 2, backgroundColor: '#f0f0f0', padding: '30px'}}>
          View documents
         </div>
-        <div style={{ flex: 1, backgroundColor: '#d0d0d0', padding: '20px' }}>
+        <div style={{color: 'black', fontSize: '20px', flex: 1, backgroundColor: '#d0d0d0', padding: '30px' }}>
           View upcoming assignments
         </div>
       </div>
