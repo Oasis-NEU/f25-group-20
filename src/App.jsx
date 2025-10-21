@@ -76,18 +76,7 @@ const App = () => {
                 fontSize: "14px",
                 borderRadius: "5px",
                 backgroundColor: "#496068",
-              }}>Cancel</button>
-
-              <button onClick = {() => setShowCreate(false)} 
-              style = {{
-                marginTop: "0px",
-                marginLeft: "80%",
-                padding: "4px",
-                fontSize: "14px",
-                borderRadius: "5px",
-                backgroundColor: "#496068",
-              }}>Continue</button>
-
+              }}>Cancel!</button>
             </div>
           </div>)}
       </div>
