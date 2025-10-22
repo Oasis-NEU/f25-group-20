@@ -23,8 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
-
-server/.env
-server/node_modules
-client/node_modules
-client/.env
+# Don't forget to remove this and line 27 when all of us fetched these files
+# Files that GIT should ignore(to now show secret info in public). Remove # when all of us fetched these files
+#server/.env
+#server/node_modules
+#client/node_modules
+#client/.env
