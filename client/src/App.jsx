@@ -4,9 +4,9 @@ const App = () => {
   const [showCreate, setShowCreate] = useState(false);
   return (
     <div style={{ width: '100vw',
-    height: '100vh',
-    backgroundColor: '#496068',
-    padding: '20px'}}>
+     height: '100vh',
+     backgroundColor: '#496068',
+     padding: '20px'}}>
       {/* Top bar */}
       <div 
         style={{ 
@@ -80,6 +80,13 @@ const App = () => {
             </div>
           </div>)}
       </div>
+      <button style={{
+        marginLeft: "45%",
+        marginTop: "20px",
+        backgroundColor: "grey",
+      }}>
+        Logout
+      </button>
     </div>
   );
 };
